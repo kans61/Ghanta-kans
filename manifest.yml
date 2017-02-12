@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: Ghanta-kans
+  host: Ghanta-kans
+  disk_quota: 1024M
+  services:
+  - Ghanta-kans-cloudantNoSQLDB
+  - Ghanta-kans-iotf-service
